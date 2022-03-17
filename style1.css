@@ -1,0 +1,334 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+  background-color: black;
+  font-family: 'Darker Grotesque', sans-serif;
+}
+
+h1 {
+  color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 22px;
+  line-height: 26px;
+  margin-top: 5px;
+  font-family: 'Darker Grotesque', sans-serif;
+
+}
+
+h2 {
+  font-family: 'Darker Grotesque', sans-serif;
+  /*font-family: 'Baskervville', serif;*/
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 45px;
+  margin-top: 10px;
+}
+
+h3 {
+  font-family: 'Darker Grotesque', sans-serif;
+/*font-family: 'Baskervville', serif;*/
+font-size: 32px;
+font-weight: 500;
+line-height: 48px;
+  margin-top: 10px;
+margin-bottom: -20px;
+}
+
+h4 {
+  /*font-family: 'Baskervville', serif;
+  font-style: italic;*/
+  font-family: 'Darker Grotesque', sans-serif;
+  font-weight: 500;
+
+  font-size: 24px;
+  margin-top: 10px;
+
+}
+
+p {
+ font-size: 20px;
+ line-height: 20px;
+}
+ul {
+  list-style-position: inside;
+  font-size: 20px;
+  line-height: 20px;
+  margin-top: 20px;
+}
+
+
+
+
+
+.big-container {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  /* background-color: black; */
+  border: 1px solid white;
+  overflow: hidden;
+}
+
+.container-verticle {
+  flex: 1;
+  display: flex;
+  width: 100vw;
+  border-bottom: 1px solid white;
+  overflow: hidden;
+  /*transition: all 0.5s ease-in-out;*/
+
+}
+
+.name {
+  flex: 1;
+  border-right: 1px solid white;
+  overflow: hidden;
+  padding-bottom: 20px;
+  /*position: relative;*/
+}
+
+.name-last {
+  flex:1;
+  overflow: hidden;
+  border-right: 1px solid white;
+  background: linear-gradient(180deg, #000000 7.28%, rgba(255, 255, 255, 0) 82.28%), #000000;
+color: white;
+}
+
+.name:hover {
+  overflow-y: scroll;
+}
+
+
+.row-afterhover {
+  flex:6;
+  transition: all 0.3s ease-in-out;
+
+}
+
+
+
+.colum-afterhover {
+  flex:3.5;
+  position: relative;
+  /* smooth column hover*/
+  transition: all 0.3s ease-in-out;
+}
+
+/* backgroud img*/
+
+/*.bg-img {
+  background-size: cover;
+  width: 100%;
+  height:100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  display: none;
+}*/
+
+
+
+
+
+.img-1{
+  background: url(img/img1.jpg)
+no-repeat center center;
+}
+
+.img-2{
+    background: url(img/img2.jpg)
+    no-repeat center center;
+}
+.img-3 {
+    background: url(img/img3.jpg)
+    no-repeat center center;
+}
+
+.img-4{
+  background: url(img/img4.jpg)
+  no-repeat center center;
+}
+.img-5{
+    background: url(img/img5.jpg)
+    no-repeat center center;
+}
+.img-6{
+    background: url(img/img6.jpg)
+    no-repeat center center;
+}
+.img-7{
+  background: url(img/img7.jpg)
+  no-repeat center center;
+}
+
+
+.img-8{
+    background: url(img/img8.jpg)
+    no-repeat center center;
+}
+.img-9 {
+    background: url(img/img9.jpg)
+    no-repeat center center;
+}
+.img-10 {
+  background: url(img/img10.jpg)
+  no-repeat center center;
+}
+.img-11 {
+    background: url(img/img11.jpg)
+    no-repeat center center;
+}
+.img-12 {
+    background: url(img/img12.jpg)
+    no-repeat center center;
+}
+
+.img-13 {
+  background: url(img/img13.jpg)
+  no-repeat center center;
+}
+.img-14 {
+    background: url(img/img14.jpg)
+    no-repeat center center;
+}
+.img-15 {
+    background: url(img/img15.jpg)
+    no-repeat center center;
+}
+.img-16 {
+    background: url(img/img16.jpg)
+    no-repeat center center;
+}
+.img-17 {
+    background: url(img/img17.jpg)
+    no-repeat center center;
+}
+.img-18 {
+  background: url(img/img18.jpg)
+  no-repeat center center;
+}
+.img-19 {
+    background: url(img/img19.jpg)
+    no-repeat center center;
+}
+.img-20 {
+    background: url(img/img20.jpg)
+    no-repeat center center;
+}
+.img-21 {
+    background: url(img/img21.jpg)
+    no-repeat center center;
+}
+.img-22 {
+    background: url(img/img22.jpg)
+    no-repeat center center;
+}
+.img-23 {
+    background: url(img/img23.jpg)
+    no-repeat center center;
+}
+
+.img-beforehover {
+  background: black;
+}
+
+
+.recipe-text {
+  color: white;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  display: none;
+  overflow: scroll;
+}
+
+
+a {
+  color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 24px;
+  line-height: 26px;
+  font-family: 'Darker Grotesque', sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+a:hover {
+  color: yellow;
+   font-family: 'Baskervville', serif;
+   font-size: 20px;
+   font-style: italic;
+}
+
+#back {
+   padding-top: 5px;
+
+
+}
+
+#back:hover {
+  color: blue;
+}
+
+#moble {
+  display:none;
+}
+/*iphone size*/
+@media screen and (max-width: 768px) {
+
+.big-container {
+  display:none;
+}
+
+#moble {
+  display: block;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.name {
+  border:0;
+  flex: 1;
+  height:80px;
+  border-bottom: 1px solid white;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+h2 {
+  font-size: 32px;
+  line-height: 32px;
+}
+
+h3 {
+  font-size: 24px;
+
+}
+
+h3 {
+  font-size: 24px;
+
+}
+
+#back {
+  padding-left: 3vw;
+  border:0;
+  flex: 1;
+
+}
+
+#back:hover {
+  height:600px;
+}
+
+
+}
